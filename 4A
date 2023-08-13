@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int w;
+    scanf("%d", &w);
+
+    // Check if it's possible to divide the watermelon as per the conditions
+    // Each part needs to have an even weight, and the total weight should be even as well
+    if (w >= 4 && (w % 2 == 0)) {
+        printf("YES\n");
+    } else {
+        printf("NO\n");
+    }
+
+    return 0;
+}
